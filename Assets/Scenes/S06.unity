@@ -1076,6 +1076,7 @@ GameObject:
   - component: {fileID: 853458479}
   - component: {fileID: 853458481}
   - component: {fileID: 853458480}
+  - component: {fileID: 853458482}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -1140,6 +1141,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853458478}
   m_CullTransparentMesh: 1
+--- !u!114 &853458482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853458478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2025d8a6793734b91f8abca25a707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIInventory
+  data: {fileID: 11400000, guid: ba7041eacfd140840b4bff7bece472d9, type: 2}
 --- !u!1 &934793190
 GameObject:
   m_ObjectHideFlags: 0
