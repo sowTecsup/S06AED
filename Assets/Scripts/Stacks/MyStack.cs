@@ -16,6 +16,7 @@ public class MyStack<T> //->strings
         if(top == null)
         {
             top = newNode;
+            count++;
             return;
         }
         //->pila ya tiene un elemtno
